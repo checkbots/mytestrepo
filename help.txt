@@ -1,4 +1,2 @@
-
-A fghytr
 This is the second modification
 "This is  a help file"
