@@ -2,7 +2,7 @@
 """
 
 
-import sys
+#import sys
 import roman
 import pytest
 

@@ -1,15 +1,25 @@
-<project name="python_proj1" default="compile">
+<project name="python_proj1" default="run.tests">
 
-  <taskdef resource="pyAntTasks.properties"/>
+	<taskdef resource="pyAntTasks.properties" />
 
-  <property name="src.dir" value="."/>
+	<property name="src.dir" value="." />
 
-  <target name="compile">
-    <py-compile dir="${src.dir}" pythonpath="${src.dir}" optimize="0"/>
-  </target>
-	  <target name="run.feedparser" depends="compile">
-	    <py-run script="roman.py" pythonpath="${src.dir}" optimize="0">
-	      <arg value="http://www-106.ibm.com/developerworks/news/dw_dwtp.rss"/>
-	    </py-run>
-	  </target>
+	<target name="compile">
+		<py-compile dir="${src.dir}" pythonpath="${src.dir}" optimize="0" />
+	</target>
+	
+	<target name="run.feedparser" depends="compile">
+		<py-run script="roman.py" pythonpath="${src.dir}" optimize="0">
+			<arg value="http://www-106.ibm.com/developerworks/news/dw_dwtp.rss" />
+		</py-run>
+	</target>
+
+	<target name="run.tests" depends="run.feedparser">
+		<echo> "I am here"</echo>
+		<py-test pythonpath="${src.dir}" dir=".">
+			<fileset dir="${src.dir}">
+				<include name="**/*test.py" />
+			</fileset>
+		</py-test>
+	</target>
 </project>
