@@ -1,0 +1,30 @@
+-- VERSION_3
+-- START DISKCACHE
+/workspace/github/mytestrepo/.metadata/.plugins/org.eclipse.core.resources/.projects/python_proj1/com.python.pydev.analysis/v1_indexcache
+.v1_indexcache
+romantest|0|/workspace/github/mytestrepo/python_proj1/romantest.py
+roman|0|/workspace/github/mytestrepo/python_proj1/roman.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=romantest
+1=roman
+-- END DICTIONARY
+-- START TREE 1
+12
+__a|1|__author__!11@
+__c|1|__copyright__!11@
+__d|1|__date__!11@
+__l|1|__license__!11@
+fro|1|fromRoman!10@
+ini|1|initTestData!18@
+inv|1|InvalidRomanNumeralError!9@
+not|1|NotIntegerError!9@
+out|1|OutOfRangeError!9@
+rom|3|romanNumeralMap!11@RomanError!9@romanNumeralPattern!11@
+tes|6|testToRomanKnownValues!18@testToRomanNegative!18@testToRomanTooLarge!18@testFromRomanKnownValues!18@testToRomanZero!18@testToRomanDecimal!18@
+tor|1|toRoman!10@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE
