@@ -5,7 +5,7 @@
   <!-- set global properties for this build -->
   <property name="src" location="."/>
   <property name="build" location="build"/>
-  <property name="dist"  location="dist"/>
+  <property name="dist"  location="../../dist"/>
 
   <target name="init">
     <!-- Create the time stamp -->
@@ -23,7 +23,7 @@
   <target name="dist" depends="compile"
         description="generate the distribution" >
     <!-- Create the distribution directory -->
-    <mkdir dir="${dist}/lib"/>
+    <mkdir dir="${dist}/output"/>
 
     <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
     <jar jarfile="${dist}/lib/MyProject-${DSTAMP}.jar" basedir="${build}"/>
