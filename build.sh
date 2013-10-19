@@ -1,3 +1,5 @@
+
+
 #!/bin/sh
 export ws=`pwd`
 export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
@@ -9,7 +11,8 @@ echo "calling the build script"
 
 echo "*****************************"
 echo "Calling a python script..."
-echo ""
+
+echo "    "
 ${ws}/test.py
 echo ""
 echo "*****************************"
