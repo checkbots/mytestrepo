@@ -8,3 +8,5 @@ export PYTHONPATH=$PYTHONPATH:/usr/local/bin
 
 py.test python_proj1/
 
+
+
