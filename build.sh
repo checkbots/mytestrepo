@@ -12,7 +12,7 @@ export CLASSPATH=$CLASSPATH:$JAVA_HOME/lib/tools.jar:$LIB1/pyAntTasks-1.3.3.jar
 export PYTHONPATH=$PYTHONPATH:/usr/local/bin
 echo "calling the build script"
 
-echo "*****************************"
+echo "Start Pythonscript*********"
 echo "Calling a python script..."
 
 echo "    "
