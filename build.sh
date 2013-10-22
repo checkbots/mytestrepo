@@ -1,6 +1,5 @@
 #!/bin/sh
 
-echo "*****************************"
 echo "Starting the build...."
 echo "*****************************"
 export ws=`pwd`
