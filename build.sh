@@ -1,5 +1,8 @@
 #!/bin/sh
 
+echo "*****************************"
+echo "Starting the build...."
+echo "*****************************"
 export ws=`pwd`
 export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
 export LIB1=${ws}/lib
