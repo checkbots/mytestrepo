@@ -16,10 +16,10 @@ echo "Start Pythonscript*********"
 echo "Calling a python script..."
 
 echo "    "
-${ws}/test.py
+#${ws}/test.py
 echo ""
 echo "*****************************"
 echo ""
 
 ant -f Java_Proj1/build.xml
-ant -f python_proj1/build.xml
+#ant -f python_proj1/build.xml
