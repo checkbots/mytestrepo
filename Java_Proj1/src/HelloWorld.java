@@ -5,7 +5,7 @@ public class HelloWorld {
 		System.out.println("Hello Wold from Java HelloWorls class");
 		System.out.println("Hello Wold from Java HelloWorls class");
 		System.out.println("Test Artifactory");
-		System.out.println("Hello Wold from Java HelloWorls class");
+		
 		
 
 	}
