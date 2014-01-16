@@ -5,5 +5,5 @@ print("test again")
 
 print("test again")
 
-
+print("smoketest")
 print("test again")
