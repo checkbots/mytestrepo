@@ -6,3 +6,4 @@ print("test again")
 print("test again")
 print("test cherry-pick")
 
+print("test rebase")
