@@ -9,4 +9,3 @@ print("test cherry-pick")
 
 print("test cherry-pick")
 
-print("Pull request test")
